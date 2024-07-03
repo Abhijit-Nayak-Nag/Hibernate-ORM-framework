@@ -1,0 +1,7 @@
+
+r	java:S106"+Replace this use of System.out by a logger.(•·ûõûÿÿÿÿ8‚Ü–üù1J$f0dd4821-2248-49cc-9623-aff7cd7a9d24
+r	java:S106"+Replace this use of System.out by a logger.(ûõÄ¶ùÿÿÿÿ8„Ü–üù1J$41ae49f2-aa65-4ef5-866d-653053797f10
+‚
+java:S1128"?Remove this unused import 'org.hibernate.query.SelectionQuery'.(ÛÀöÕ8šÎ—üù1J$36b9a46b-e34e-4d79-b40b-bcaa0d9e7a22
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8šÎ—üù1J$b872e42e-7b6d-4fd0-bf99-9d1c5e0ae595

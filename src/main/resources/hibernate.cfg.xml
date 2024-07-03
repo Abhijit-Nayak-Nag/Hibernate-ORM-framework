@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+<!--        database connection-->
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/DB_Design</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">Global@777#</property>
+<!-- when you are working with jdbc if we want to insert a record into table we need to create a
+ table first using create command we can create a table in postgresSql prompt or in jdbc program
+ compulsory we need to use create table command but in case of hibernate if we use these properties
+ hibernate.hbm2ddl.auto create then table  will get created automatically means it going to mapping
+ xml file student.hbm.xml and refer the code what we have written and create table automatically-->
+            <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+            <property name="hibernate.connection.autocommit">false</property>
+            <property name="show_sql">true</property>
+            <property name="hbm2ddl.auto">update</property>
+<!-- dialect means sql command syntax means in hibernate we used methods like persist, merge when we
+use this method it internally converts into the respective database syntax command so here we used
+ PostgresSql Dialect-->
+
+
+        <mapping resource="student.hbm.xml"/>
+        <mapping class="com.hibernate.Employee"/>
+
+    </session-factory>
+</hibernate-configuration>

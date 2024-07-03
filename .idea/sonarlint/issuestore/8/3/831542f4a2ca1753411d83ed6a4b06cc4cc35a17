@@ -1,0 +1,14 @@
+
+—
+java:S1104
+"TMake registry a static final constant or non-public and provide accessors if needed.(ô¦ë¸8Ûêòèø1J$62a7038a-2163-43e8-b351-58834e18329e
+¢
+java:S1104"ZMake sessionFactory a static final constant or non-public and provide accessors if needed.(à”üÿÿÿÿÿ8Üêòèø1J$fb9c8f55-17c2-4591-9f0b-206a361493b5
+q
+java:S1444
+".Make this "public static registry" field final(ô¦ë¸8İêòèø1J$ccdba28c-5e1f-4cbc-9d9b-b4b48b9fd5bb
+|
+java:S1444"4Make this "public static sessionFactory" field final(à”üÿÿÿÿÿ8İêòèø1J$5475309e-866c-4b20-8185-7ba6d21f7f8e
+‚
+java:S1118	":Add a private constructor to hide the implicit public one.(‡Œïøşÿÿÿÿ8ôêòèø1J$a9585bac-ec7b-434d-b83b-8520784395ec
+r	java:S106"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ8ëòèø1J$27fd986f-cb5a-414c-8278-baebe1163fce
